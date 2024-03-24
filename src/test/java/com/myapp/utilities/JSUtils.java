@@ -19,5 +19,6 @@ public class JSUtils {
     public static void clickBYJS(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].click();", element);
+
     }
 }
